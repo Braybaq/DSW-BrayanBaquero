@@ -1,8 +1,13 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
 body{
     background-image: url("../IMG/Fondo.jpg");
     background-size: 100%;  
+    margin: 0;
+    margin-bottom: 40px;
 }
-
 h1{
     color: white;
     
@@ -91,6 +96,24 @@ li a, menu{
     padding: 3px 10px;
     border: PowderBlue 2px solid;
     border-radius: 20px;
+    float: left;
+    width: 76%
+}
+aside{
+    float: right;
+    width: 20%
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+  }
+.UP{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 102px;
 }
 .Img1{
     max-width: 50%;
@@ -117,3 +140,4 @@ li a, menu{
     background-color: #974747;
     color: #fff;
 }
+
