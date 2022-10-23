@@ -1,0 +1,143 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+body{
+    background-image: url("../IMG/Fondo.jpg");
+    background-size: 100%;  
+    margin: 0;
+    margin-bottom: 40px;
+}
+h1{
+    color: white;
+    
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{
+    text-align: center;
+}
+p{
+    color: white;
+   padding: 0 2.5em;
+}
+
+nav{
+    text-align: center;
+    opacity: 95%;
+}
+h1{
+    text-align: center;
+}
+/*menu*/
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav > ul{
+    background: #974747;
+    display: table;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+}
+nav li{
+    line-height: 3rem;
+}
+nav li li {
+    background: #333;
+}
+nav a {
+    color: #ddd;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .4s;
+}
+nav a:hover{
+    background: rgba(0, 0, 0, .5);
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+section{
+    grid-column: 1/2;
+}
+aside{
+    grid-column: 2/3;
+}
+.menu li{
+    display: inline-block;
+}
+li a, menu{
+    
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+}
+
+.listadesplegable{
+    display: none;
+    text-align: left;
+    position: absolute;
+    background: #974747;
+    opacity: 95%;
+}
+.boton:hover .listadesplegable{
+    display: block;
+}
+
+.Contenedor{
+    padding: 3px 10px;
+    border: PowderBlue 2px solid;
+    border-radius: 20px;
+    float: left;
+    width: 76%
+}
+aside{
+    float: right;
+    width: 20%
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+  }
+.UP{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 102px;
+}
+.Img1{
+    max-width: 50%;
+    display:block;
+    margin:auto;
+}
+
+.Img2{
+    max-width: 50%;
+    display:block;
+    margin:auto;
+    width: 20%;
+}
+.TbIni{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+.TableE{
+    color: #ddd;
+    border: 1px solid;
+}
+.TableHead{
+    background-color: #974747;
+    color: #fff;
+}
+

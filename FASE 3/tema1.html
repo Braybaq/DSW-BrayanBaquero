@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="class=device-class, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Desarrollo de sitios Web Fase 2</title>
+</head>
+<body>
+    <body> 
+        <header>
+            <h1>Etiquetas Básicas de HTML, atributos y valores</h1>      
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="Index.html">Inicio</a></li>
+                <li class="boton"><a href="#">Temas</a>
+                    <div class="listadesplegable">
+                        <a href="tema1.html">Tema 1</a>
+                        <a href="tema2.html">Tema 2</a>
+                    </div>
+                </li>
+                <li class="boton"> <a href="#">Recursos Multimedia</a>
+                    <div class="listadesplegable">
+                        <a href="recursos1.html">Recurso Multimedia1</a>
+                        <a href="recursos2.html">Recurso Multimedia2</a>
+                    </div>
+                </li>
+                <li class="boton"><a href="#">Aprendizaje</a>
+                    <div class="listadesplegable">
+                        <a href="aprendizaje1.html">Aprendizaje 1</a>
+                        <a href="aprendizaje2.html">Aprendizaje 2</a>
+                    </div>
+                </li>
+                <li><a href="autor.html">Autor</a></li>
+            </ul>
+        </nav>
+          <section class="Contenedor">
+            <h1>Definicion Etiquetas Básicas de HTML, atributos y valores</h1>        
+            <article>
+                <h2>Etiquetas Básicas de HTML</h2>
+                <p>HTML define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. Sin embargo, una etiqueta por sí sola a veces no contiene la suficiente información para estar completamente definida. Para ello contamos con los atributos: pares nombre-valor separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento.</p>
+                <p><b>Etiquetas:</b></p>  
+                <table class="TbIni">
+                    <tbody>
+                    <tr class ="TableHead">
+                    <td class="TableE"><strong>Etiqueta</strong></td>
+                    <td class="TableE"><strong>Función</strong></td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;!–…–&gt;</td>
+                    <td class="TableE">Define un comentario</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;!DOCTYPE&gt;</td>
+                    <td class="TableE">Define el tipo de docuemento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;a&gt;</td>
+                    <td class="TableE">Define un hipervínculo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;abbr&gt;</td>
+                    <td class="TableE">Define una abreviación</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;address&gt;</td>
+                    <td class="TableE">Define la información de contacto del autor / propietario del documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;area&gt;</td>
+                    <td class="TableE">Define un área dentro de un mapa de imagen</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;article&gt;</td>
+                    <td class="TableE">Define un artículo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;aside&gt;</td>
+                    <td class="TableE">Define el contenido lateral del contenedor de una página</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;audio&gt;</td>
+                    <td class="TableE">Define contenido de sonido</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;b&gt;</td>
+                    <td class="TableE">Define texto en negrita</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;base&gt;</td>
+                    <td class="TableE">Especifica la base donde se abrirán todas las URL del documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;bdi&gt;</td>
+                    <td class="TableE">Aísla una parte del texto que puede tener un formato diferente del texto externo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;bdo&gt;</td>
+                    <td class="TableE">Sobreescribe la dirección del texto</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;blockquote&gt;</td>
+                    <td class="TableE">Define una sección que tiene otra fuente</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;body&gt;</td>
+                    <td class="TableE">Define el cuerpo del documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;br&gt;</td>
+                    <td class="TableE">Define un salto de línea</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;button&gt;</td>
+                    <td class="TableE">Define un botón clickeable</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;canvas&gt;</td>
+                    <td class="TableE">Se usa para dibujar gráficos en pantalla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;caption&gt;</td>
+                    <td class="TableE">Define el título de una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;cite&gt;</td>
+                    <td class="TableE">Define el título de un trabajo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;code&gt;</td>
+                    <td class="TableE">Define un trozo de código de programación</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;col&gt;</td>
+                    <td class="TableE">Especifica las propiedades de la columna para cada columna del elemento &lt;colgroup&gt;</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;colgroup&gt;</td>
+                    <td class="TableE">Especifica un grupo de una o más columnas de una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;command&gt;</td>
+                    <td class="TableE">Define un botón command al que un usuario puede invocar</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;datalist&gt;</td>
+                    <td class="TableE">Especifica en un input una lista pre-definida de opciones</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;dd&gt;</td>
+                    <td class="TableE">Define la descripción de un ítem en una lista de definición</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;del&gt;</td>
+                    <td class="TableE">Define un texto que ha sido definido en un Mdocument</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;details&gt;</td>
+                    <td class="TableE">Define detalles adicionales que el usuario puede ver o esconder</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;dfn&gt;</td>
+                    <td class="TableE">Define el término de una definición</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;dialog&gt;</td>
+                    <td class="TableE">Define una caja o ventana de dialogo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;div&gt;</td>
+                    <td class="TableE">Define una sección en un documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;dl&gt;</td>
+                    <td class="TableE">Define una lista de definición</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;dt&gt;</td>
+                    <td class="TableE">Define un término (un ítem) en una lista de definición</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;em&gt;</td>
+                    <td class="TableE">Define énfasis en un texto</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;embed&gt;</td>
+                    <td class="TableE">Define el contenedor de una aplicación externa (no html)</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;fieldset&gt;</td>
+                    <td class="TableE">Grupo de elementos relacionados en un formulario</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;figcaption&gt;</td>
+                    <td class="TableE">Define el título para una figura &lt;figure&gt;</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;figure&gt;</td>
+                    <td class="TableE">Especifica auto-contenido</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;footer&gt;</td>
+                    <td class="TableE">Define el pie de página de un documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;form&gt;</td>
+                    <td class="TableE">Define un formulario html</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;h1&gt; a &lt;h6&gt;</td>
+                    <td class="TableE">Define encabezados o títulos</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;head&gt;</td>
+                    <td class="TableE">Define información hacerca del documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;header&gt;</td>
+                    <td class="TableE">Define la sección de encabezado del docuemnto</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;hgroup&gt;</td>
+                    <td class="TableE">Grupo de encabezado (&lt;h1&gt; a &lt;6&gt;)</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;hr&gt;</td>
+                    <td class="TableE">Define un cámbio de temática a partir de una línea dibujada</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;html&gt;</td>
+                    <td class="TableE">Define la raíz del documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;i&gt;</td>
+                    <td class="TableE">Define una parte del texto de modo alternativo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;iframe&gt;</td>
+                    <td class="TableE">Define un frame en línea</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;img&gt;</td>
+                    <td class="TableE">Define una imagen</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;input&gt;</td>
+                    <td class="TableE">Define un control de entrada de texto</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;ins&gt;</td>
+                    <td class="TableE">Define texto que ha sido insertado en un documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;kbd&gt;</td>
+                    <td class="TableE">Define entrada del teclado</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;keygen&gt;</td>
+                    <td class="TableE">Define un campo generador de claves para formularios</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;label&gt;</td>
+                    <td class="TableE">Define el rótulo para un elemento &lt;input&gt;</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;legend&gt;</td>
+                    <td class="TableE">Define un título para los elementos &lt;fieldset&gt;, &lt;figure&gt;, &lt;details&gt;</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;li&gt;</td>
+                    <td class="TableE">Define un ítem de una lista</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;link&gt;</td>
+                    <td class="TableE">Define la relación entre un documento y un recurso externo (generalmente con hojas de estilo)</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;map&gt;</td>
+                    <td class="TableE">Define un mapa de imagen del cliente</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;mark&gt;</td>
+                    <td class="TableE">Define texto resaltado o marcado</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;menu&gt;</td>
+                    <td class="TableE">Define la lista de un menú</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;meta&gt;</td>
+                    <td class="TableE">Define un metadato de un documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;meter&gt;</td>
+                    <td class="TableE">Define una medida escalar en un rango conocido</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;nav&gt;</td>
+                    <td class="TableE">Define un link de navegación</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;noscript&gt;</td>
+                    <td class="TableE">Define un contenido alternativo para los usuarios que no soportan scripts del cliente</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;objet&gt;</td>
+                    <td class="TableE">Define un objeto embebido</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;ol&gt;</td>
+                    <td class="TableE">Define una lista ordenada</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;optgroup&gt;</td>
+                    <td class="TableE">Define un grupo de opciones relacionadas en una lista desplegable</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;option&gt;</td>
+                    <td class="TableE">Define una opción en una lista desplegable</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;output&gt;</td>
+                    <td class="TableE">Define el resultado de un cálculo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;p&gt;</td>
+                    <td class="TableE">Define un párrafo</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;param&gt;</td>
+                    <td class="TableE">Define un parámetro para un objeto</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;pre&gt;</td>
+                    <td class="TableE">Define texto pre-formateado</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;progress&gt;</td>
+                    <td class="TableE">Representa el progreso de una tarea en una barra</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;q&gt;</td>
+                    <td class="TableE">Define una cita corta</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;rp&gt;</td>
+                    <td class="TableE">Define que debe mostrar en navegadores que no soportan scripts de ruby</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;rt&gt;</td>
+                    <td class="TableE">Define una pronunciación de caracteres</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;ruby&gt;</td>
+                    <td class="TableE">Define una notación de ruby</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;s&gt;</td>
+                    <td class="TableE">Define texto que no es correcto</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;samp&gt;</td>
+                    <td class="TableE">Define un ejemplo de salida de un programa</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;script&gt;</td>
+                    <td class="TableE">Define un script del lado cliente</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;section&gt;</td>
+                    <td class="TableE">Define una sección de un documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;select&gt;</td>
+                    <td class="TableE">Define un drop-down list</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;small&gt;</td>
+                    <td class="TableE">Define texto pequeño</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;source&gt;</td>
+                    <td class="TableE">Define los recursos para elementos multimedia</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;span&gt;</td>
+                    <td class="TableE">Define una pequeña sección de un documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;strong&gt;</td>
+                    <td class="TableE">Define un texto en negrita</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;style&gt;</td>
+                    <td class="TableE">Define un estilo para la información de un documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;sub&gt;</td>
+                    <td class="TableE">Define un texto que es subíndice</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;summary&gt;</td>
+                    <td class="TableE">Define un encabezado visible para el elemento &lt;details&gt;</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;sup&gt;</td>
+                    <td class="TableE">Define un texto que es superíndice</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;table&gt;</td>
+                    <td class="TableE">Define una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;tbody&gt;</td>
+                    <td class="TableE">Define el cuerpo de una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;td&gt;</td>
+                    <td class="TableE">Define una celda en una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;textarea&gt;</td>
+                    <td class="TableE">Define un control de entrada de múltiples líneas</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;tfoot&gt;</td>
+                    <td class="TableE">Agrupa los footer contenidos en una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;th&gt;</td>
+                    <td class="TableE">Define una celda de encabezado en una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;thead&gt;</td>
+                    <td class="TableE">Agrupa los encabezados de una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;time&gt;</td>
+                    <td class="TableE">Define fecha / hora</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;title&gt;</td>
+                    <td class="TableE">Define un título para el documento</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;tr&gt;</td>
+                    <td class="TableE">Define una fila en una tabla</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;track&gt;</td>
+                    <td class="TableE">Define texto de la pista para elementos multimedia (vídeo y audio)</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;ul&gt;</td>
+                    <td class="TableE">Define una lista desordenada</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;var&gt;</td>
+                    <td class="TableE">Define una variable</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;video&gt;</td>
+                    <td class="TableE">Define un vídeo o película</td>
+                    </tr>
+                    <tr>
+                    <td class="TableE">&lt;wbr&gt;</td>
+                    <td class="TableE">Define un posible salto de linea</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <img src="IMG/estructuraHTML.jpg" alt="Captura de pantalla" class="Img1">
+                    <br>
+            </article>
+          </section> 
+          <aside>
+            <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+          <footer>
+            <p>Fecha Actualizacion: 01/10/2022</p>
+            <p>Correo: bebaquerot@unadvirtual.edu.co</p>
+            <p>Skype: Brayan_Baquero</p>  
+          </footer>
+    </body>
+</html>
