@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/Responsive.css">  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script> 
+    <title>Desarrollo de sitios Web Fase 2</title>
+</head>
+<body>
+    <body> 
+        <header>
+            <h1>Etiquetas Básicas de HTML, atributos y valores</h1>      
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="Index.html">Inicio</a></li>
+                <li class="boton"><a href="#">Temas</a>
+                    <div class="listadesplegable">
+                        <a href="tema1.html">Tema 1</a>
+                        <a href="tema2.html">Tema 2</a>
+                    </div>
+                </li>
+                <li class="boton"> <a href="#">Recursos Multimedia</a>
+                  <div class="listadesplegable">
+                      <a href="recursos1.html">Recurso Multimedia1</a>
+                      <a href="recursos2.html">Recurso Multimedia2</a>
+                  </div>
+                </li>
+                <li class="boton"><a href="#">Aprendizaje</a>
+                    <div class="listadesplegable">
+                        <a href="aprendizaje1.html">Aprendizaje 1</a>
+                        <a href="aprendizaje2.html">Aprendizaje 2</a>
+                    </div>
+                </li>
+                <li><a href="autor.html">Autor</a></li>
+            </ul>
+        </nav>
+          <section class="Contenedor">
+            <h1>Definicion Atributos y valores de HTML</h1>        
+            <article>
+                <h2>Atributos de HTML</h2>          
+                <p><b>Atributos básicos:</b> Los atributos básicos se utilizan en la mayoría de etiquetas HTML y XHTML, aunque adquieren mayor sentido cuando se utilizan hojas de estilo en cascada (CSS)</p>
+                <p><b>Atributos de internacionalización:</b> Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios idiomas y las que quieran indicar de forma explícita el idioma de sus contenidos</p>
+                <p><b>Atributos de eventos:</b> Estos atributos se utilizan en las páginas web que incluyen código JavaScript para realizar acciones dinámicas sobre los elementos de la página.</p>
+                <p><b>Atributos de foco:</b> Se le denomina foco o focus, cuando un control o elemento del documento ha sido seleccionado. Cuando ese elemento deja de estar seleccionado, "pierde el foco" y es el nuevo elemento seleccionado el que se dice que tiene "el foco".</p>
+            </article>
+            <br>
+            <article>
+                <h2>Valores de un atributo HTML</h2>          
+                <p>Cuando se hace uso de un atributo HTML se debe especificar su valor, este puede representar una cantidad exacta, característica especifica o simplemente en que medida se ejecutará dicho atributo. El valor se expresa entre comillas después del signo de (=), de acuerdo al atributo, pueden haber una variedad de valores disponibles. Por ejemplo, en caso dealign puede tomar el valor de center (centro), right (derecha), left (izquierda), justify (justificado).</p>
+                <br>
+                <img src="IMG/etiquetas-atributos-html.png" alt="Captura de pantalla"  class="Img1">
+                <br>
+                <table class="TbIni">
+                    <thead class ="TableHead">
+                       <tr>
+                          <th>Atributo</th>                          
+                          <th>Descripción</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                          <td class="TableE">accept</td>                          
+                          <td class="TableE">Tipos de archivos aceptados por el servidor. Puedes definirlos con valores separados por comas, por ejemplo: .doc, .ods, .txt, etc. O también puedes indicarle un conjunto de tipos de archivos, como por ejemplo: «video/*» o «audio/*»</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">accept-charset</td>                         
+                          <td class="TableE">Define una lista de caracteres soportados en el formulario. Por ejemplo: accept-charset=»ISO-8859-1″</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">accesskey</td>                          
+                          <td class="TableE">Podrás configurar un botón de tu teclado para que se ejecute acción en la página web. Por ejemplo, un enlace hacia la página de contacto o la home.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">action</td>
+                          <td class="TableE">El atributo especifica la URL dónde se enviarán los datos recogidos en el formulario, a menudo un archivo .php dentro del mismo servidor.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">align</td>                          
+                          <td class="TableE">Especifica el alineamiento horizontal del elemento. <br><em><em>Este atributo sigue funcionando pero no es aconsejable usarlo ya que está en desuso. Lo recomendable es usar reglas CSS en su lugar</em></em>.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">alt</td>                          
+                          <td class="TableE">Texto alternativo que se mostrará en el navegador en caso de que la imagen no se pueda mostrar. Muy importante de cara a accesibilidad.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">async</td>                          
+                          <td class="TableE">Indica que el script debe ejecutarse de forma asíncrona.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">autocomplete</td>                          
+                          <td class="TableE">Indica si los controles en este formulario pueden tener por defecto sus valores completados automáticamente por el navegador.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">autofocus</td>                          
+                          <td class="TableE">El elemento debe tener el foco automáticamente una vez se cargue la página web.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">autoplay</td>                          
+                          <td class="TableE">Hace que el audio o video comience a reproducirse una vez se cargue la página web.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">bgcolor</td>                          
+                          <td class="TableE">Te permite añadir un color de fondo al elemento HTML. El color debe ser añadido en el modo de color RGB, por ejemplo #FF00AA. <br><em>Este atributo sigue funcionando pero no es aconsejable usarlo ya que está en desuso. Lo recomendable es usar reglas CSS en su lugar</em>.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">border</td>                          
+                          <td class="TableE">Permite definir un borde al elemento HTML. <br><em>Este atributo sigue funcionando pero no es aconsejable usarlo ya que está en desuso. Lo recomendable es usar reglas CSS en su lugar</em>.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">buffered</td>                          
+                          <td class="TableE">Con este atributo podrás definir un rango de tiempo del elemento multimedia que será usado como buffer.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">charset</td>                          
+                          <td class="TableE">Atributo necesario par definir la codificación de caracteres de la página o del script.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">checked</td>                          
+                          <td class="TableE">Usado para definir que un elemento HTML debe estar marcado por defecto al cargar la página web.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">cite</td>                          
+                          <td class="TableE">Contiene una URL que apunta a la fuente de la cita o cambio. <strong>Muy importante de cara a una correcta optimización SEO de la página. </strong></td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">class</td>
+                          <td class="TableE">Otorga una clase creada en CSS a un elemento HTML. Se usa principalmente para aplicar estilos a elementos con propiedades en común.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">code</td>                          
+                          <td class="TableE">Especifica la URL del archivo de tipo applet que será cargado y ejecutado.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">color</td>                          
+                          <td class="TableE">Atributo usado para indicar el color del texto de un elemento. <br><em>Este atributo sigue funcionando pero no es aconsejable usarlo ya que está en desuso. Lo recomendable es usar reglas CSS en su lugar</em>.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">cols</td>   
+                          <td class="TableE">Dentro de una etiqueta &lt;textarea&gt, se usa para definir el número de columnas que tendrá el campo de texto.</td>                                                 
+                       </tr>
+                       <tr>
+                          <td class="TableE">colspan</td>                          
+                          <td class="TableE">Dentro de una tabla, define el número de columnas que una celda debe ocupar.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">content</td>   
+                          <td class="TableE">Un atributo que permite definir el contenido de la etiqueta HTML &lt;meta&gt que acompaña.</td>                                                                              
+                       </tr>
+                       <tr>
+                          <td class="TableE">contenteditable</td>
+                          <td class="TableE">Define si el contenido del elemento HTML podrá ser editable o no.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">contextmenu</td>
+                          <td class="TableE">Define el ID del elemento &lt;menu&gt que servira como menú de contexto para otro elemento.</td>                          
+                       </tr>
+                       <tr>
+                          <td class="TableE">controls</td>                          
+                          <td class="TableE">Indica si el navegador debe mostrar los controles multimedia del reproductor integrado al usuario.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">coords</td>                          
+                          <td class="TableE">Un conjunto de valores que especifican las coordenadas dentro de la etiqueta area.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">data</td>                          
+                          <td class="TableE">Especifica la URL, absoluta o relativa del objeto o recurso.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">data-*</td>
+                          <td class="TableE">Permite asociar atributos presonalizados a un elemento HTML.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">datetime</td>                          
+                          <td class="TableE">Permite definir la fecha y hora asociadas con el elemento.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">default</td>                          
+                          <td class="TableE">Con este atributo podrás definir que por defecto, una pista por ejemplo de subtítulos esté habilitada. Siempre y cuando las preferencias del usuario no indiquen algo diferente.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">defer</td>                          
+                          <td class="TableE">Indica que el código debe ser ejecutado despues de que la página este cargada.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">dir</td>
+                          <td class="TableE">Con este atributo puedes definir la dirección del texto en un elemento HTML. Los valores permitidos son ltr (Izquierda-a-Derecha) o rtl (Derecha-a-Izquierda).</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">dirname</td>                          
+                          <td class="TableE">Similar a la anterior. Indica la dirección del texto asociada con el elemento al momento de enviar el formulario.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">disabled</td>                          
+                          <td class="TableE">Permite que un elemento HTML esté deshabilitado y el usuario no pueda interactuar con el.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">download</td>                          
+                          <td class="TableE">Si este atributo se añade al elemento HTML, el recurso indicado podrá descargarse al dispositivo del usuario.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">draggable</td>
+                          <td class="TableE">Define si el elemento puede ser arrastrado.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">enctype</td>                          
+                          <td class="TableE">Define el tipo de contenido del formulario cuando el método del mismo es POST.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">for</td>                          
+                          <td class="TableE">Atributo usado para asociar o describir elementos que pertenecen a éste.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">form</td>                          
+                          <td class="TableE">Atributo para indicar el formulario al que pertenece el elemento.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">headers</td>                                                    
+                          <td class="TableE">A través de «ids» indicados en los encabezados de una tabla &lt;th&gt podrás asociarlos a diferentes elementos de la tabla &lt;td&gt. Muy útil de cara a la accesibilidad y por lo tanto para el SEO.</td>   
+                       </tr>
+                       <tr>
+                          <td class="TableE">height</td>                          
+                          <td class="TableE">Permite especificar la altura de los elementos HTML indicados. <br><em>Este atributo sigue funcionando pero no es aconsejable usarlo ya que está en desuso. Lo recomendable es usar reglas CSS en su lugar</em>.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">hidden</td>
+                          <td class="TableE">Este atributo permite indicar que el elemento HTML no debe ser visible. Es habitual usarlo por ejemplo, para ocultar elementos que no deben ser visibles inicialmente pero que después de una acción si deben verse.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">high</td>                          
+                          <td class="TableE">El atributo especifica el intervalo donde el atributo «value» tomara el valor como alto.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">href</td>                          
+                          <td class="TableE">La URL de un recurso asociado.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">hreflang</td>                          
+                          <td class="TableE">Especifica el lenguaje del recurso asociado.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">http-equiv</td>                          
+                          <td class="TableE">Indica una directiva que puede alterar el comportamiento de la página y como es leída por los exploradores.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">id</td>
+                          <td class="TableE">Usado para asignar un identificador único a un elemento HTML. Usado generalmente para acceder al mismo desde CSS o Javascript. No pueden existir dos «ids» iguales en una misma página web.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">ismap</td>                          
+                          <td class="TableE">Indica que la imagen es parte de un mapa de imagen del servidor.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">itemprop</td>
+                          <td class="TableE">Atributo que permite dar más información a Google acerca de imágenes o datos dentro de cualquier tipo de etiquetas. Por ejemplo se puede indicar propiedades como: actores , clasificación, género, etc .</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">label</td>                          
+                          <td class="TableE">Especifica el título de la pista con un formato legible por el usuario. Usado conjuntamente con el atributo «for»</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">lang</td>
+                          <td class="TableE">Define el lenguaje utilizado en el elemento.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">language</td>                          
+                          <td class="TableE">Define el lenguaje (de programación) utilizado en el script.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">list</td>                          
+                          <td class="TableE">Identifica una serie de valores predefinidos para ser sugeridos al usuario en un menú desplegable.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">loop</td>                          
+                          <td class="TableE">Atributo que habilita al medio a volver a reproducirse desde el principio cuando llega al final.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">low</td>                          
+                          <td class="TableE">Similar al atributo high, solo que en este caso, permite definir cuando un valor estará en el rango bajo.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">max</td>                          
+                          <td class="TableE">Define el máximo valor aceptado.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">maxlength</td>                          
+                          <td class="TableE">Define el mayor número de caracteres aceptados.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">media</td>                          
+                          <td class="TableE">Indica el tipo de medio para el cual el recurso vinculado fue creado.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">method</td>                          
+                          <td class="TableE">Define el método HTTP a emplear para enviar el formulario. Puede ser GET (predeterminado) o POST.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">min</td>                          
+                          <td class="TableE">Define el valor mínimo aceptado.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">multiple</td>                          
+                          <td class="TableE">Atributo que define si se puede introducir múltiples valores.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">muted</td>                          
+                          <td class="TableE">Al reproducir un contenido audiovisual, este atributo indica si el audio será silenciado inicialmente al cargar la página.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">name</td>                          
+                          <td class="TableE">Nombre del elemento. Utilizado a menudo por el servidor para identificar los campos en el envío de formularios.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">novalidate</td>                          
+                          <td class="TableE">Con este atributo indicamos al formulario que no valide el contenido del mismo.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">open</td>                          
+                          <td class="TableE">Indica si los detalles de la página seran mostrados cuando cargue la misma.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">optimum</td>                          
+                          <td class="TableE">Con este atributo se define el valor numérico óptimo.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">pattern</td>                          
+                          <td class="TableE">Este atributo define una expresión regular con la cual el valor del elemento debe ser validado antes de aceptar el contenido del mismo.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">ping</td>                          
+                          <td class="TableE">Indica si se enviara un ping o notificacion a la URL del recurso cuando el usuario utlize el vinculo.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">placeholder</td>                          
+                          <td class="TableE">Proporciona una sugerencia al usuario de lo que puede ser introducido en el campo de un formulario por ejemplo. Muy util de cara a la accesibilidad.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">poster</td>                          
+                          <td class="TableE">Atributo que permite añadir una imagen que se mostrará mientras se carga un video en una web. En caso de que la URL del video este «rota», el poster seguirá cargándose consiguiendo con esto no ver un hueco vacio en la web.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">preload</td>                          
+                          <td class="TableE">Indica si el recurso o partes del mismo deben ser precargadas.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">readonly</td>                          
+                          <td class="TableE">Con este atributo se define si el elemento puede o no ser editado por el usuario.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">rel</td>                          
+                          <td class="TableE">Especifica la relación entre el objeto destino y el objeto enlace. Importante de cara una correcta optimización SEO.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">required</td>                          
+                          <td class="TableE">Con este atributo hacemos que la etiqueta Html sea, o no, de obligada cumplimentación.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">reversed</td>                          
+                          <td class="TableE">Con este atributo podemos modificar el comportamiento estándar de una lista ordenada haciendo que se vea listada en orden descendente en lugar de ascendente.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">rows</td>                          
+                          <td class="TableE">Define el número de filas en un área de texto.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">rowspan</td>                          
+                          <td class="TableE">Define el número de filas que una celda de una tabla debe abarcar.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">sandbox</td>                          
+                          <td class="TableE">Lista de restricciones a ser desactivadas en el iframe.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">scope</td>                          
+                          <td class="TableE">En una tabla permite definir las celdas que la cabecera deberá ocupar en este elemento.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">seamless</td>                          
+                          <td class="TableE">Indica si el iframe debe ser cargado como parte del mismo documento.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">selected</td>                          
+                          <td class="TableE">Define un valor que aparecerá por defecto seleccionado al cargar la página.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">size</td>                          
+                          <td class="TableE">Define el ancho del elemento (en píxeles). En este caso es mejor por tanto usar reglas CSS. En cambio. si el atributo del elemento es del tipo «text» o «password», entonces es el número de caracteres que se podrán introducir.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">span</td>                          
+                          <td class="TableE">Indica el número de columnas que se agrupan en una tabla.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">spellcheck</td>
+                          <td class="TableE">Con este atributo se permite que un texto pueda ser autocorregido ortográficamente, o no.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">src</td>                          
+                          <td class="TableE">La URL del contenido integrable en la etiqueta HTML que lo acompaña.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">srcdoc</td>                          
+                          <td class="TableE">Especifica el contenido de la página incluida.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">srclang</td>                          
+                          <td class="TableE">Especifica el lenguaje del contenido de la pista.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">srcset</td>                          
+                          <td class="TableE">Este atributo define diferentes versiones de la imagen para mostrar una o otra según el tipo de pantalla.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">start</td>                          
+                          <td class="TableE">Define el número inicial de la lista ordenada (si es diferente a 1).</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">style</td>
+                          <td class="TableE">Define los estilos CSS que anulan los estilos establecidos previamente. En este caso son llamados estilos en línea ya que se introducen directamente en la etiqueta HTML en cuestión.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">target</td>                          
+                          <td class="TableE">Con este atributo se determina el marco destino en un vínculo. <br>Valores especiales: «_blank» indica una nueva ventana, «_parent» indica el marco padre del marco que contiene el código fuente, «_self» indica el marco donde está el código fuente y «_top» indica la ventana completa del navegador.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">title</td>
+                          <td class="TableE">Texto a ser mostrado cuando el cursor esté sobre el elemento. Muy útil de cara a la usabilidad y para una correcto posicionamiento SEO.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">type</td>                          
+                          <td class="TableE">Define el tipo de elemento HTML.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">usemap</td>  
+                          <td class="TableE">Indica la URL parcial de un image map asociado con el elemento.<br>Note: Este atributo no puede ser usado si el elemento &lt;img&gt; desciende de un &lt;button&gt; o &lt;a&gt;</td>                                                  
+                       </tr>
+                       <tr>
+                          <td class="TableE">value</td>                          
+                          <td class="TableE">Define el valor predeterminado a ser mostrado al cargar la página.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">width</td>                          
+                          <td class="TableE">Para los elementos enumerados aquí, esto establece el ancho del elemento. Aunque como en caso anteriores, lo correcto sería usar reglas CSS.</td>
+                       </tr>
+                       <tr>
+                          <td class="TableE">wrap</td>                          
+                          <td class="TableE">Indica la forma en la cual el texto debe ser envuelto.</td>
+                       </tr>                       
+                    </tbody>
+                 </table>
+                 <br>
+            </article>
+          </section> 
+          <aside>
+            <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+          <footer>
+            <p class="Footer-p">Fecha Actualizacion: 01/10/2022</p>
+            <p class="Footer-p">Correo: bebaquerot@unadvirtual.edu.co</p>
+            <p class="Footer-p">Skype: Brayan_Baquero</p>  
+          </footer>
+    </body>
+</html>
